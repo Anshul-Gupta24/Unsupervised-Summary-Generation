@@ -103,8 +103,6 @@ transcripts = df['transcript'].values
 
 
 def get_context(s1):
-
-
 	
 	# get context for 1st sentence
 
@@ -150,7 +148,6 @@ def sent_distance(s1, s2):
 		# summary.append(sentencelist[j])
 
 	return cosine_sim, euclid_sim
-
 
 
 
@@ -203,12 +200,7 @@ def get_alpha(transcript):
 	min_alpha = 0
 
 	for alpha in alphas:
-
-		print alpha
-		print alpha
-		print alpha
-		print alpha
-		print alpha
+		
 		print alpha
 
 		_, not_included, num_sent = get_summary(transcript, alpha)
@@ -238,8 +230,9 @@ def get_alpha(transcript):
 
 if __name__ == '__main__':
 
-
-	for t in range(1,4):
+	num_transcripts = 4
+	
+	for t in range(1,num_transcripts):
 
 		#print transcripts[t]
 		
