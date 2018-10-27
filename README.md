@@ -12,4 +12,8 @@
 #### Download the file 'transcripts.csv' from https://www.kaggle.com/rounakbanik/ted-talks.
 #### </br>
 
-### 
+### Running the Code
+#### To run the code:
+#### >> python sent_dist.py </br>
+
+#### Summaries are stored in 'summary\<ind\>.txt', where ind is the index of the transcript. To change the number of transcripts for which to generate a summary, modify the 'num_transcripts' variable in the main function. 
